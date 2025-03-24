@@ -1,0 +1,47 @@
+2025-03-24 00:40:33,073 - INFO - Database 'BnB' ensured/created successfully
+2025-03-24 00:40:33,080 - INFO - Database connection established
+2025-03-24 00:40:33,098 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 00:40:33,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:27:21,919 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:27:21,931 - INFO - Database connection established
+2025-03-24 01:27:21,998 - INFO - Database schema ensured
+2025-03-24 01:27:22,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:27:22,032 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 02:16:44,774 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:16:44,781 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:16:44,782 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:16:57,974 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:16:57,981 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:16:57,982 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:17:21,510 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:17:21,517 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:17:21,517 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:18:25,390 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:18:25,395 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:18:25,395 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:19:34,243 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:19:34,250 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:19:34,251 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:33:42,721 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:33:42,728 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:33:42,729 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:37:22,711 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:37:22,719 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:37:22,719 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:40:41,345 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:40:41,352 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:40:41,353 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:41:05,602 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:41:05,609 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:41:05,610 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:45:15,186 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:45:15,194 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:45:15,195 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:45:30,161 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:45:30,169 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:45:30,170 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:51:07,478 - ERROR - Failed to connect to database: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-03-24 03:06:50,608 - ERROR - Failed to connect to database: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2025-03-24 03:07:18,275 - ERROR - Failed to connect to database: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)

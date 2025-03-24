@@ -1,0 +1,18 @@
+2025-03-24 00:49:08,130 - INFO - Database 'BnB' ensured/created successfully
+2025-03-24 00:49:08,137 - INFO - Database connection established
+2025-03-24 00:49:08,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 00:49:08,151 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 00:55:57,972 - INFO - Database 'BnB' ensured/created successfully
+2025-03-24 00:55:57,978 - INFO - Database connection established
+2025-03-24 00:55:57,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 00:55:57,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:01:00,965 - INFO - Database 'BnB' ensured/created successfully
+2025-03-24 01:01:00,972 - INFO - Database connection established
+2025-03-24 01:01:00,985 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:01:00,986 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 02:41:25,923 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:41:25,930 - ERROR - Failed to ensure database schema: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-03-24 02:41:25,930 - ERROR - Failed to initialize connection pool: 1054 (42S22): Unknown column 'name' in 'field list'

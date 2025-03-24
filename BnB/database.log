@@ -1,0 +1,75 @@
+2025-03-24 01:32:05,677 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:32:05,718 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:32:05,729 - INFO - Database schema ensured
+2025-03-24 01:32:05,771 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:32:05,772 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:32:05,773 - INFO -  * Restarting with stat
+2025-03-24 01:32:06,228 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:32:06,266 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:32:06,272 - INFO - Database schema ensured
+2025-03-24 01:32:06,300 - WARNING -  * Debugger is active!
+2025-03-24 01:32:06,305 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 01:32:46,488 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:32:46,519 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:32:46,525 - INFO - Database schema ensured
+2025-03-24 01:32:46,555 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:32:46,556 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:32:46,557 - INFO -  * Restarting with stat
+2025-03-24 01:32:46,980 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:32:47,013 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:32:47,020 - INFO - Database schema ensured
+2025-03-24 01:32:47,050 - WARNING -  * Debugger is active!
+2025-03-24 01:32:47,053 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 01:38:34,508 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:38:34,539 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:38:34,545 - INFO - Database schema ensured
+2025-03-24 01:38:34,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:38:34,576 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:38:34,577 - INFO -  * Restarting with stat
+2025-03-24 01:38:34,995 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:38:35,033 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:38:35,039 - INFO - Database schema ensured
+2025-03-24 01:38:35,068 - WARNING -  * Debugger is active!
+2025-03-24 01:38:35,072 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 01:48:33,976 - INFO -  * Detected change in 'c:\\Users\\microstar\\Desktop\\BnB\\bnb_project\\frontend.py', reloading
+2025-03-24 01:48:34,040 - INFO -  * Restarting with stat
+2025-03-24 01:48:34,492 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:48:34,524 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:48:34,531 - INFO - Database schema ensured
+2025-03-24 01:48:34,554 - WARNING -  * Debugger is active!
+2025-03-24 01:48:34,557 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 01:52:04,521 - INFO -  * Detected change in 'c:\\Users\\microstar\\Desktop\\BnB\\bnb_project\\run.py', reloading
+2025-03-24 01:52:04,574 - INFO -  * Restarting with stat
+2025-03-24 01:52:05,064 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:52:05,103 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:52:05,109 - INFO - Database schema ensured
+2025-03-24 01:52:05,134 - WARNING -  * Debugger is active!
+2025-03-24 01:52:05,138 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 01:54:39,850 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:54:39,882 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:54:39,887 - INFO - Database schema ensured
+2025-03-24 01:54:39,915 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 01:54:39,916 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 01:54:39,917 - INFO -  * Restarting with stat
+2025-03-24 01:54:40,344 - INFO - Database 'BnB' ensured/created
+2025-03-24 01:54:40,375 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 01:54:40,380 - INFO - Database schema ensured
+2025-03-24 01:54:40,401 - WARNING -  * Debugger is active!
+2025-03-24 01:54:40,403 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 02:15:25,328 - INFO - Database 'BnB' ensured/created
+2025-03-24 02:15:25,361 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:15:25,366 - INFO - Database schema ensured
+2025-03-24 02:15:25,398 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-24 02:15:25,398 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-24 02:15:25,400 - INFO -  * Restarting with stat
+2025-03-24 02:15:25,828 - INFO - Database 'BnB' ensured/created
+2025-03-24 02:15:25,860 - INFO - Connection pool initialized for database 'BnB'
+2025-03-24 02:15:25,865 - INFO - Database schema ensured
+2025-03-24 02:15:25,887 - WARNING -  * Debugger is active!
+2025-03-24 02:15:25,889 - INFO -  * Debugger PIN: 651-875-228
+2025-03-24 02:16:25,268 - INFO -  * Detected change in 'c:\\Users\\microstar\\Desktop\\BnB\\bnb_project\\frontend.py', reloading

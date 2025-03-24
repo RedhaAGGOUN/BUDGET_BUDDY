@@ -1,0 +1,25 @@
+2025-03-24 01:27:44,231 - INFO - Sending registration request for email: lsdlks@jkjadjk.com
+2025-03-24 01:27:44,237 - ERROR - HTTP error occurred: 400 Client Error: BAD REQUEST for url: http://127.0.0.1:5000/register
+2025-03-24 01:54:44,721 - WARNING - Failed to set application icon: bitmap "c:\Users\microstar\Desktop\BnB\bnb_project\budget_buddy.ico" not defined
+2025-03-24 01:54:44,721 - INFO - Initialized theme: light
+2025-03-24 01:54:45,217 - INFO - Displayed login screen
+2025-03-24 01:54:51,869 - INFO - Displayed register screen
+2025-03-24 01:55:08,518 - WARNING - Registration failed: Password must be at least 10 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character (@$!%*?&).
+2025-03-24 01:55:17,590 - WARNING - Registration failed: Password must be at least 10 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character (@$!%*?&).
+2025-03-24 01:55:40,562 - WARNING - Registration failed: Password must be at least 10 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character (@$!%*?&).
+2025-03-24 01:55:44,887 - INFO - Sending registration request for email: kajsldk@aslkjasklj.com
+2025-03-24 01:55:44,893 - WARNING - Registration failed: Status 400, Response: {'message': 'Le champ nom est requis!'}
+2025-03-24 01:55:57,217 - INFO - Switched to theme: dark
+2025-03-24 01:55:58,095 - INFO - Switched to theme: nature
+2025-03-24 01:56:06,748 - INFO - Sending registration request for email: kajsldk@aslkjasklj.com
+2025-03-24 01:56:06,751 - WARNING - Registration failed: Status 400, Response: {'message': 'Le champ nom est requis!'}
+2025-03-24 01:56:31,094 - INFO - Sending registration request for email: kajsldk@aslkjasklj.com
+2025-03-24 01:56:31,098 - WARNING - Registration failed: Status 400, Response: {'message': 'Le champ nom est requis!'}
+2025-03-24 02:15:30,147 - WARNING - Failed to set application icon: bitmap "c:\Users\microstar\Desktop\BnB\bnb_project\budget_buddy.ico" not defined
+2025-03-24 02:15:30,148 - INFO - Initialized theme: light
+2025-03-24 02:15:30,535 - INFO - Displayed login screen
+2025-03-24 02:15:49,348 - INFO - Sending login request for email: redha.aggoun@laplateforme.io
+2025-03-24 02:15:49,372 - ERROR - Login failed: Expecting value: line 1 column 1 (char 0)
+2025-03-24 02:15:54,460 - INFO - Displayed register screen
+2025-03-24 02:16:14,235 - INFO - Sending registration request for email: redha.aggoun@laplateforme.io
+2025-03-24 02:16:14,239 - WARNING - Registration failed: Status 400, Response: {'message': 'Le champ nom est requis!'}

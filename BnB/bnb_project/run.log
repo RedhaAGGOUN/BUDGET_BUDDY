@@ -1,0 +1,74 @@
+2025-03-24 00:49:07,595 - INFO - All required packages are installed.
+2025-03-24 00:49:07,681 - INFO - Database 'BnB' already exists.
+2025-03-24 00:49:07,681 - INFO - Starting Flask backend server on 127.0.0.1:5000...
+2025-03-24 00:49:07,682 - INFO - Found backend file at: c:\Users\microstar\Desktop\BnB\bnb_project\backend.py
+2025-03-24 00:49:10,694 - INFO - Backend server started successfully
+2025-03-24 00:49:10,694 - INFO - Starting Tkinter frontend...
+2025-03-24 00:49:10,695 - INFO - Found frontend file at: c:\Users\microstar\Desktop\BnB\bnb_project\frontend.py
+2025-03-24 00:55:53,175 - INFO - Backend server terminated
+2025-03-24 00:55:53,175 - INFO - Application closed.
+2025-03-24 00:55:57,470 - INFO - All required packages are installed.
+2025-03-24 00:55:57,556 - INFO - Database 'BnB' already exists.
+2025-03-24 00:55:57,556 - INFO - Starting Flask backend server on 127.0.0.1:5000...
+2025-03-24 00:55:57,557 - INFO - Found backend file at: c:\Users\microstar\Desktop\BnB\bnb_project\backend.py
+2025-03-24 00:56:00,568 - INFO - Backend server started successfully
+2025-03-24 00:56:00,569 - INFO - Starting Tkinter frontend...
+2025-03-24 00:56:00,569 - INFO - Found frontend file at: c:\Users\microstar\Desktop\BnB\bnb_project\frontend.py
+2025-03-24 01:00:56,034 - INFO - Backend server terminated
+2025-03-24 01:00:56,034 - INFO - Application closed.
+2025-03-24 01:01:00,451 - INFO - All required packages are installed.
+2025-03-24 01:01:00,531 - INFO - Database 'BnB' already exists.
+2025-03-24 01:01:00,532 - INFO - Starting Flask backend server on 127.0.0.1:5000...
+2025-03-24 01:01:00,532 - INFO - Found backend file at: c:\Users\microstar\Desktop\BnB\bnb_project\backend.py
+2025-03-24 01:01:03,543 - INFO - Backend server started successfully
+2025-03-24 01:01:03,544 - INFO - Starting Tkinter frontend...
+2025-03-24 01:01:03,544 - INFO - Found frontend file at: c:\Users\microstar\Desktop\BnB\bnb_project\frontend.py
+2025-03-24 01:01:39,697 - INFO - Backend server terminated
+2025-03-24 01:01:39,697 - INFO - Application closed.
+2025-03-24 02:41:25,343 - INFO - All required packages are installed.
+2025-03-24 02:41:25,441 - INFO - Database 'BnB' already exists.
+2025-03-24 02:41:25,441 - INFO - Starting Flask backend server on 127.0.0.1:5000...
+2025-03-24 02:41:25,442 - INFO - Found backend file at: c:\Users\microstar\Desktop\BnB\bnb_project\backend.py
+2025-03-24 02:41:28,456 - ERROR - Backend server failed to start: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:41:28,460 - ERROR - Failed to start backend server. Exiting.

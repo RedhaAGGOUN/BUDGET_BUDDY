@@ -1,0 +1,564 @@
+2025-03-24 01:54:38,354 - INFO - Launching Budget Buddy application
+2025-03-24 01:54:38,356 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 01:54:39,420 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 01:54:41,433 - INFO - Backend started successfully
+2025-03-24 01:54:43,434 - INFO - Starting Tkinter frontend
+2025-03-24 01:54:44,446 - INFO - Frontend started successfully
+2025-03-24 01:54:44,446 - INFO - Budget Buddy is now running
+2025-03-24 02:15:23,803 - INFO - Launching Budget Buddy application
+2025-03-24 02:15:23,804 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:15:24,847 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:15:26,862 - INFO - Backend started successfully
+2025-03-24 02:15:28,862 - INFO - Starting Tkinter frontend
+2025-03-24 02:15:29,874 - INFO - Frontend started successfully
+2025-03-24 02:15:29,874 - INFO - Budget Buddy is now running
+2025-03-24 02:16:18,894 - INFO - Frontend closed, terminating backend
+2025-03-24 02:16:18,894 - INFO - Terminating frontend
+2025-03-24 02:16:18,894 - INFO - Terminating backend
+2025-03-24 02:16:18,903 - INFO - All processes terminated
+2025-03-24 02:16:18,903 - INFO - Budget Buddy has been shut down
+2025-03-24 02:16:18,904 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:16:43,251 - INFO - Launching Budget Buddy application
+2025-03-24 02:16:43,253 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:16:44,294 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:16:46,307 - ERROR - Backend failed to start
+2025-03-24 02:16:46,307 - ERROR - Backend stdout: 
+2025-03-24 02:16:46,307 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:16:46,308 - ERROR - Failed to start backend, exiting
+2025-03-24 02:16:46,308 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:16:56,541 - INFO - Launching Budget Buddy application
+2025-03-24 02:16:56,543 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:16:57,520 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:16:59,533 - ERROR - Backend failed to start
+2025-03-24 02:16:59,533 - ERROR - Backend stdout: 
+2025-03-24 02:16:59,533 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:16:59,533 - ERROR - Failed to start backend, exiting
+2025-03-24 02:16:59,533 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:17:19,899 - INFO - Launching Budget Buddy application
+2025-03-24 02:17:19,900 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:17:20,978 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:17:22,991 - ERROR - Backend failed to start
+2025-03-24 02:17:22,991 - ERROR - Backend stdout: 
+2025-03-24 02:17:22,992 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:17:22,992 - ERROR - Failed to start backend, exiting
+2025-03-24 02:17:22,992 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:18:23,839 - INFO - Launching Budget Buddy application
+2025-03-24 02:18:23,841 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:18:24,930 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:18:26,944 - ERROR - Backend failed to start
+2025-03-24 02:18:26,944 - ERROR - Backend stdout: 
+2025-03-24 02:18:26,945 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:18:26,945 - ERROR - Failed to start backend, exiting
+2025-03-24 02:18:26,945 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:19:32,744 - INFO - Launching Budget Buddy application
+2025-03-24 02:19:32,745 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:19:33,788 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:19:35,801 - ERROR - Backend failed to start
+2025-03-24 02:19:35,801 - ERROR - Backend stdout: 
+2025-03-24 02:19:35,801 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:19:35,801 - ERROR - Failed to start backend, exiting
+2025-03-24 02:19:35,801 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:33:41,636 - INFO - Launching Budget Buddy application
+2025-03-24 02:33:41,639 - WARNING - Port 5000 is in use. Attempting to free it.
+2025-03-24 02:33:42,230 - ERROR - Failed to free port 5000
+2025-03-24 02:33:42,230 - WARNING - Port 5000 could not be freed
+2025-03-24 02:33:42,231 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:33:44,246 - ERROR - Backend failed to start
+2025-03-24 02:33:44,247 - ERROR - Backend stdout: 
+2025-03-24 02:33:44,247 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:33:44,247 - ERROR - Failed to start backend, exiting
+2025-03-24 02:37:21,475 - INFO - Launching Budget Buddy application
+2025-03-24 02:37:21,478 - WARNING - Port 5000 is in use. Attempting to free it.
+2025-03-24 02:37:22,120 - ERROR - Failed to free port 5000
+2025-03-24 02:37:22,120 - WARNING - Port 5000 could not be freed
+2025-03-24 02:37:22,120 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:37:24,134 - ERROR - Backend failed to start
+2025-03-24 02:37:24,134 - ERROR - Backend stdout: 
+2025-03-24 02:37:24,134 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:37:24,134 - ERROR - Failed to start backend, exiting
+2025-03-24 02:40:40,849 - INFO - Launching Budget Buddy application
+2025-03-24 02:40:40,849 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:40:42,863 - ERROR - Backend failed to start
+2025-03-24 02:40:42,863 - ERROR - Backend stdout: 
+2025-03-24 02:40:42,863 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:40:42,863 - ERROR - Failed to start backend, exiting
+2025-03-24 02:41:04,026 - INFO - Launching Budget Buddy application
+2025-03-24 02:41:04,027 - WARNING - Port 5000 is already in use. Attempting to terminate the process.
+2025-03-24 02:41:05,145 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:41:07,159 - ERROR - Backend failed to start
+2025-03-24 02:41:07,159 - ERROR - Backend stdout: 
+2025-03-24 02:41:07,159 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:41:07,159 - ERROR - Failed to start backend, exiting
+2025-03-24 02:41:07,159 - INFO - Budget Buddy launcher has exited
+2025-03-24 02:45:14,570 - INFO - Launching Budget Buddy application
+2025-03-24 02:45:14,570 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:45:16,586 - ERROR - Backend failed to start
+2025-03-24 02:45:16,586 - ERROR - Backend stdout: 
+2025-03-24 02:45:16,586 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:45:16,590 - ERROR - Failed to start backend, exiting
+2025-03-24 02:45:29,562 - INFO - Launching Budget Buddy application
+2025-03-24 02:45:29,562 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 02:45:31,576 - ERROR - Backend failed to start
+2025-03-24 02:45:31,576 - ERROR - Backend stdout: 
+2025-03-24 02:45:31,576 - ERROR - Backend stderr: Traceback (most recent call last):
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 755, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Unknown column 'name' in 'field list'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 155, in <module>
+    db = Database()
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 47, in __init__
+    self.ensure_database_schema()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\microstar\Desktop\BnB\bnb_project\backend.py", line 97, in ensure_database_schema
+    cursor.execute("INSERT IGNORE INTO categories (name) VALUES (%s)", (category,))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 351, in execute
+    self._connection.cmd_query(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self._stmt_partition["mappable_stmt"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        raw_as_string=self._raw_as_string,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\microstar\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 763, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'name' in 'field list'
+
+2025-03-24 02:45:31,579 - ERROR - Failed to start backend, exiting
+2025-03-24 03:06:50,163 - INFO - Launching Budget Buddy application
+2025-03-24 03:06:50,173 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 03:07:17,735 - INFO - Launching Budget Buddy application
+2025-03-24 03:07:17,742 - INFO - Starting Flask backend at http://127.0.0.1:5000
+2025-03-24 03:07:48,096 - ERROR - Backend failed to start (health check failed)
+2025-03-24 03:07:48,097 - ERROR - Backend stdout: 
+2025-03-24 03:07:48,097 - ERROR - Backend stderr: Database connection failed. Check backend.log for details.
+
+2025-03-24 03:07:48,097 - ERROR - Failed to start backend, exiting

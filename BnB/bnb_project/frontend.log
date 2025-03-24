@@ -1,0 +1,6 @@
+2025-03-24 00:56:18,838 - INFO - Sending login request for email: redha.aggoun@laplateforme.io
+2025-03-24 00:56:18,870 - ERROR - HTTP error occurred: 500 Server Error: INTERNAL SERVER ERROR for url: http://127.0.0.1:5000/login
+2025-03-24 00:56:53,576 - INFO - Sending registration request for email: jsjs!@jjsjs.com
+2025-03-24 00:56:53,581 - ERROR - HTTP error occurred: 400 Client Error: BAD REQUEST for url: http://127.0.0.1:5000/register
+2025-03-24 01:01:25,347 - INFO - Sending registration request for email: wewe@sdfs.com
+2025-03-24 01:01:25,353 - ERROR - HTTP error occurred: 400 Client Error: BAD REQUEST for url: http://127.0.0.1:5000/register
